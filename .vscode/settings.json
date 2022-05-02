@@ -1,0 +1,35 @@
+{
+    // File options
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.insertFinalNewline": false,
+    "files.trimFinalNewlines": true,
+
+    // Visual Studio Code editor options
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true,
+    "editor.maxTokenizationLineLength": 100000,
+    "extensions.ignoreRecommendations": false,
+
+    // CSS/SCSS linting settings
+    "css.lint.unknownAtRules": "ignore",
+    "css.lint.unknownProperties": "ignore",
+    "css.lint.emptyRules": "ignore",
+    "scss.lint.unknownAtRules": "ignore",
+    "scss.lint.unknownProperties": "ignore",
+    "scss.lint.emptyRules": "ignore",
+
+    // Formatter options for languages
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
