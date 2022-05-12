@@ -19,11 +19,20 @@
     "scss.lint.unknownProperties": "ignore",
     "scss.lint.emptyRules": "ignore",
 
+    // JavaScript file settings
+    "javascript.format.semicolons": "insert",
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.preferences.quoteStyle": "double",
+
     // Formatter options for languages
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[json]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[css]": {

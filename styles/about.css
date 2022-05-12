@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+.header {
+    background-image: url("/assets/3DQUibWBdeMZfp3GxGT75HrBavEJtDuN.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.header .whitespace {
+    height: 100%;
+    width: 50%;
+}
+
+.header-content .title {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.header-content .title h1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    color: var(--primary-colour);
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 3em; 
+    text-align: center;
+    width: max-content;
+}
+
+.header-content .title img {
+    height: 9rem;
+    width: 9rem;
+}
+
+.header-content .info {
+    height: max-content;
+    width: 100%;
+    color: var(--primary-colour);
+    font-size: 1.5em;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 10rem;
+}
+
+.content {
+    background-color: var(--features-background-colour);
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .info {
+    border-radius: 4rem;
+    background-image: url("../assets/mG8TMfTB2BdMXPAHvUHaN8h1gTEZbyFi.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 19rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-30%);
+}
+
+.content .info span {
+    font-size: 1.5em;
+    color: var(--primary-colour);   
+    margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .header-content {
+        width: 100%;
+    }
+
+    .header .whitespace {
+        width: 0%;
+    }
+
+    .header .title img {
+        height: 7rem;
+        width: 7rem;
+    }
+}
