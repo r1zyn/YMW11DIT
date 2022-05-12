@@ -64,25 +64,22 @@
 }
 
 .content {
-    background-color: var(--features-background-colour);
-    height: 30vh;
+    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .content .info {
-    border-radius: 4rem;
     background-image: url("../assets/mG8TMfTB2BdMXPAHvUHaN8h1gTEZbyFi.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 25% 60%;
     background-repeat: no-repeat;
     height: 19rem;
-    width: 25rem;
+    width: 80rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY(-30%);
 }
 
 .content .info span {
@@ -94,6 +91,10 @@
 @media only screen and (max-width: 768px) {
     .header-content {
         width: 100%;
+    }
+
+    .header-content .title h1 {
+        font-size: 2.5em;
     }
 
     .header .whitespace {
