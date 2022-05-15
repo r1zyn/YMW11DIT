@@ -13,6 +13,7 @@ main {
 }
 
 .contact-info {
+    color: var(--primary-colour);
     display: flex;
     flex-direction: column;
     justify-content: center;
