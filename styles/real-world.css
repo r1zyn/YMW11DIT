@@ -134,4 +134,8 @@
     .header .whitespace {
         width: 0%;
     }
+
+    .section-description {
+        font-size: 1em;
+    }
 }
