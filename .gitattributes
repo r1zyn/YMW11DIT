@@ -4,3 +4,6 @@
 *.md linguist-detectable=true
 
 *.json linguist-detectable=true
+*.json linguist-vendored=false
+*.json linguist-generated=false
+*.json linguist-documentation=false
