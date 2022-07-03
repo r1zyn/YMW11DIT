@@ -7,8 +7,3 @@
 *.json linguist-vendored=false
 *.json linguist-generated=false
 *.json linguist-documentation=false
-
-*.editorconfig linguist-detectable=true
-*.editorconfig linguist-vendored=false
-*.editorconfig linguist-generated=false
-*.editorconfig linguist-documentation=false
