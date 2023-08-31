@@ -22,12 +22,12 @@
     row-gap: 2rem;
 }
 
-.header .whitespace {
+.header > .whitespace {
     height: 100%;
     width: 50%;
 }
 
-.header-content .title {
+.header-content > .title {
     width: max-content;
     display: flex;
     flex-direction: row;
@@ -37,7 +37,7 @@
     column-gap: 3rem;
 }
 
-.header-content .title h1 {
+.header-content > .title > h1 {
     margin-block-start: 0px;
     margin-block-end: 0px;
     color: var(--primary-colour);
@@ -48,7 +48,7 @@
     width: max-content;
 }
 
-.header-content .info {
+.header-content > .info {
     height: max-content;
     width: 100%;
     color: var(--primary-colour);
@@ -127,11 +127,11 @@
         width: 100%;
     }
 
-    .header-content .title h1 {
+    .header-content > .title > h1 {
         font-size: 2.5em;
     }
 
-    .header .whitespace {
+    .header > .whitespace {
         width: 0%;
     }
 
